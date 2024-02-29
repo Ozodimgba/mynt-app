@@ -1,10 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import axios from 'axios'
-const { Blob } = require('buffer');
-import { decode } from "bs58";
-import subtract from '../../../public/Subtract.png'
-import { signTransactionFromFrontend } from "@/utils/txSigners";
 import { createCanvas, loadImage, GlobalFonts } from "@napi-rs/canvas";
 import path, { join } from "path";
 import { createClient } from "@supabase/supabase-js";

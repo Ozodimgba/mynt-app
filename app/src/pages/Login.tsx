@@ -6,7 +6,6 @@ import {
     getAuthToken,
     useDynamicContext
   } from "@dynamic-labs/sdk-react-core";
-import { useFetch } from "./hooks/usefetch";
 import { SolanaWalletConnectors } from "@dynamic-labs/solana";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
@@ -31,7 +30,7 @@ export default function Login() {
   //             'Content-Type': 'application/json'
   //         },
   //         body: JSON.stringify({
-  //             "data": "fuckyou"
+  //             "data": "
   //         })
   //       })
   //       const result = await response.json();

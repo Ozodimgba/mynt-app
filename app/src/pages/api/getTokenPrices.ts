@@ -1,8 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { Keypair } from '@solana/web3.js'
-import bs58 from 'bs58'
-import { type } from 'os'
 
 type Data = {
   data: Object

@@ -1,18 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import axios from 'axios'
-import {
-  Connection,
-  PublicKey,
-  Signer,
-  Transaction,
-  sendAndConfirmTransaction,
-  SystemProgram,
-  Keypair,
-  Message,
-  clusterApiUrl,
-  TransactionInstruction,
-} from '@solana/web3.js';
+
 
 type Data = {
   data: any;
