@@ -14,7 +14,7 @@ const ReceiptDesigner = () => {
       const file = event.dataTransfer.files[0];
       const reader = new FileReader();
       reader.readAsDataURL(file);
-      reader.onload = (e) => {
+      reader.onload = (e: any) => {
         fabric.Image.fromURL(e.target.result, (img) => {
           // Customize image properties (optional)
           img.scale(0.5); // Set scale to 50%
