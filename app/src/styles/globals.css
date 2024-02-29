@@ -26,8 +26,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.sample-canvas {
+  height: 90vh;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+#index-element {
+  pointer-events: none;
 }
